@@ -1,16 +1,31 @@
-# React + Vite
+# Mission 0 Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic responsive website template built using React and Vite. This project takes a structural wireframe and adds images and CSS media queries to ensure it looks good on both desktop and mobile screens.
 
-Currently, two official plugins are available:
+## Tech Stack
+* React
+* Vite
+* HTML5
+* CSS3
+* JavaScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+* **Images Added:** Replaced wireframe blocks with actual image elements.
+* **Responsive Design:** Optimized layout for mobile viewports using media queries.
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+2. **Run the local development server:**
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Use
+* Open `src/App.jsx` to modify the structure or add new components.
+* Open `src/App.css` to change styles and adjust the responsive mobile layout.
+
