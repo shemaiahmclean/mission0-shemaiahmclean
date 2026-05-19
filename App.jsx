@@ -1,7 +1,6 @@
 
 import './App.css'
-import banner from "./assets/banner-img.png"
-import logo from "./assets/digital-news-logo.png"
+import logo from "./src/assets/digital-news-logo.png"
 
 function App() {
   
